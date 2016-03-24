@@ -1,12 +1,12 @@
 package com.puneethbs.mypackage.tempratureconverter;
 
 /**
- * Created by puneeth on 3/23/2016.
+ * Created by puneeth.
  */
 public class ConverterUtil {
     /**
-     * @param fahrenheit
-     * @return
+     * @param fahrenheit converts fahrenheit to celsius
+     * @return celsius
      */
     // converts to celsius
     public static double convertFahrenheitToCelsius(float fahrenheit)
@@ -14,8 +14,8 @@ public class ConverterUtil {
         return ((fahrenheit - 32) * 5.0 / 9.0);
     }
     /**
-     * @param celsius
-     * @return
+     * @param celsius converts celsius to fahrenheit
+     * @return fahrenheit
      */
     // converts to fahrenheit
     public static double convertCelsiusToFahrenheit(float celsius) {

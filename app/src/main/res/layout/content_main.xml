@@ -30,9 +30,7 @@
         android:layout_below="@+id/editText"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="45dp"
-        android:id="@+id/radioGroup"
-        android:touchscreenBlocksFocus="false"
-        android:transitionGroup="false">
+        android:id="@+id/radioGroup">
 
         <RadioButton
             android:layout_width="wrap_content"
@@ -60,11 +58,8 @@
         android:layout_below="@+id/radioGroup"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="45dp"
-        android:onClick="onClick"
         android:background="#d809678f"
-        android:contextClickable="true"
         android:textColor="#ffffff"
         android:textStyle="bold"
-        android:textAppearance="#cf0000"
         android:singleLine="false" />
 </RelativeLayout>
