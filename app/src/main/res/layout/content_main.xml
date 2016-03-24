@@ -30,22 +30,26 @@
         android:layout_below="@+id/editText"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="45dp"
-        android:id="@+id/radioGroup">
+        android:id="@+id/radioGroup"
+        android:touchscreenBlocksFocus="true"
+        android:transitionGroup="true">
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New RadioButton"
+            android:text="Celcius"
             android:id="@+id/celsius"
             android:layout_gravity="center_horizontal"
-            android:checked="true" />
+            android:checked="true"
+            android:textColor="#ffffff" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New RadioButton"
+            android:text="Farenhiet"
             android:id="@+id/fahrenheit"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff" />
     </RadioGroup>
 
     <Button
@@ -56,5 +60,8 @@
         android:layout_below="@+id/radioGroup"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="45dp"
-        android:onClick="onClick" />
+        android:onClick="onClick"
+        android:background="#d809678f"
+        android:contextClickable="false"
+        android:textColor="#ffffff" />
 </RelativeLayout>
