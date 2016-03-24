@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        text = (EditText) findViewById(R.id.textView);
+        text = (EditText) findViewById(R.id.editText);
     }
     // this method is called when user clicks the button and is handled because we
     // assigned the name to the "OnClick property" of the button

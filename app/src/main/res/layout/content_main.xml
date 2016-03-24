@@ -31,13 +31,13 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="45dp"
         android:id="@+id/radioGroup"
-        android:touchscreenBlocksFocus="true"
-        android:transitionGroup="true">
+        android:touchscreenBlocksFocus="false"
+        android:transitionGroup="false">
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Celcius"
+            android:text="@string/celsius"
             android:id="@+id/celsius"
             android:layout_gravity="center_horizontal"
             android:checked="true"
@@ -46,7 +46,7 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Farenhiet"
+            android:text="@string/fahrenheit"
             android:id="@+id/fahrenheit"
             android:layout_gravity="center_horizontal"
             android:textColor="#ffffff" />
@@ -62,6 +62,9 @@
         android:layout_marginTop="45dp"
         android:onClick="onClick"
         android:background="#d809678f"
-        android:contextClickable="false"
-        android:textColor="#ffffff" />
+        android:contextClickable="true"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textAppearance="#cf0000"
+        android:singleLine="false" />
 </RelativeLayout>
